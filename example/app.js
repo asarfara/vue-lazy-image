@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueLazyImage from '../src/VueLazyImage'
+import VueLazyImage from '../src/components/VueLazyImage'
 
 Vue.component('vue-lazy-image', VueLazyImage);
 
