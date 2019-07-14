@@ -20,8 +20,7 @@
         "url": "git+https://github.com/asarfara/vue-lazy-image.git"
     },
     "scripts": {
-        "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --color --config webpack/dev.config.js",
-        "build": "rollit --moduleName vue-lazy-image src/components/VueLazyImage.vue"
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --color --config webpack/dev.config.js"
     },
     "keywords": [
         "vue",
