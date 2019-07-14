@@ -1,7 +1,7 @@
 {
     "name": "@asarfara/vue-lazy-image",
     "description": "Vue JS lazy image loading",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "license": "MIT",
     "author": {
         "name": "Ali Sarfaraz",
@@ -34,7 +34,6 @@
     ],
     "devDependencies": {
         "cross-env": "^5.2.0",
-        "rollit": "^0.0.8",
         "vue-loader": "^15.4.2",
         "webpack": "^4.27.1",
         "webpack-cli": "^3.1.2",
