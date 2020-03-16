@@ -4,11 +4,11 @@ A Vue.js component to load an image automatically when it enters the viewport.
 ## Usage
 
 ```
-npm install vue-lazy-image
+yarn add @asarfara/vue-lazy-image
 ```
 Or
 ```
-yarn add vue-lazy-image
+yarn add @asarfara/vue-lazy-image
 ```
 
 **Note:** You'll need to install the w3c Intersection Observer polyfill in case you're targeting a browser which doesn't support it
