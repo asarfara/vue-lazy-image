@@ -8,8 +8,8 @@
         </div>
         <div style="display: flex; align-items: center; justify-content: center;">
             <vue-lazy-image
-                src="example/assets/images/map.jpg"
-                placeholder="example/assets/images/placeholder.gif"
+                src="assets/images/map.jpg"
+                placeholder="assets/images/placeholder.gif"
             />
         </div>
     </div>

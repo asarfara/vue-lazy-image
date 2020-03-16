@@ -1,5 +1,8 @@
-var VueLazyImage = (function (exports, VueLazyImage) {
-    'use strict';
+(function (global, factory) {
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('src/components/VueLazyImage')) :
+    typeof define === 'function' && define.amd ? define(['exports', 'src/components/VueLazyImage'], factory) :
+    (global = global || self, factory(global.VueLazyImage = {}, global.VueLazyImage));
+}(this, (function (exports, VueLazyImage) { 'use strict';
 
     VueLazyImage = VueLazyImage && Object.prototype.hasOwnProperty.call(VueLazyImage, 'default') ? VueLazyImage['default'] : VueLazyImage;
 
@@ -31,6 +34,6 @@ var VueLazyImage = (function (exports, VueLazyImage) {
     exports.default = VueLazyImage;
     exports.install = install;
 
-    return exports;
+    Object.defineProperty(exports, '__esModule', { value: true });
 
-}({}, VueLazyImage));
+})));

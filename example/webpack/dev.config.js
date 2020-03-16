@@ -10,10 +10,10 @@ module.exports = {
         hints: false
     },
     entry: [
-        './example/app.js'
+        './app.js'
     ],
     output: {
-        path: path.resolve(__dirname, '../dist'),
+        path: path.resolve(__dirname, '../dist/'),
         publicPath: '/dist/',
         filename: 'app.js'
     },
@@ -41,7 +41,7 @@ module.exports = {
     devServer: {
         historyApiFallback: {
             rewrites: [
-                { from: /^\/$/, to: '/example/index.html' },
+                { from: /^\/$/, to: '/example/index.html' }
             ]
         },
         compress: true,
