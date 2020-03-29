@@ -32,20 +32,3 @@ Define your own src and placeholder images
   />
 </template>
 ```
-
-## Example Project
-
-To run example project, run below commands
-
-```
-yarn install
-yarn dev
-```
-
-This will open a browser window or if it doesn't, please open http://localhost:8081 in your browser
-
-You will see a page with containers, please scroll and once the placeholder 1x1 image is in the viewport, it will instantly load the actual image to replace it.
-
-
-
-
