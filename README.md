@@ -19,19 +19,7 @@ You can register vue-lazy-image globally:
 import Vue from 'vue'
 import VueLazyImage from '@asarfara/vue-lazy-image'
 
-Vue.use(VueLazyImage);
-```
-
-Or use it in one of your components
-
-```
-import VueLazyImage from '@asarfara/vue-lazy-image'
-
-export default {
-  components: {
-    VueLazyImage
-  }
-};
+Vue.component('vue-lazy-image', VueLazyImage);
 ```
 
 Define your own src and placeholder images
